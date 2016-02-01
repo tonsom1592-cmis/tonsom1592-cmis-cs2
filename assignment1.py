@@ -1,0 +1,12 @@
+myName = "Tonsom"
+myAge = 18.06
+myHeightInMeters = 1.63
+lengthOfOneSideofSquare = 3
+lengthOfOneSideofRectangle = 4
+heightOfRectangle = 6
+myAgeInMonths = myAge * 12
+yearsLeftToLive = 80 - myAge
+myHeightInFeet = myHeightInMeters * 3.28
+myHeightComparedToAverageInMeters = myHeightInMeters - 1.6 
+areaOfSquare = 3 * 3
+halfVolumeOfCube = 
