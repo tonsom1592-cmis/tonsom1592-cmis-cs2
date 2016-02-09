@@ -6,3 +6,18 @@ git add filename
 git commit -m"insert comment"
 git push
 
+python - run python script
+def add(a, b):
+	return a + b
+add(3, 5) - to add
+print add(3, 5) - show on gedit
+c = add(5, 34) - to name a command
+print c
+add( add(1, 2), add(3, 4) ) - for more than one addition
+add() takes 2 aruguments
+add( add("hi"," yeah"), add(" okay"," bye") )
+
+def add4(a, b, c, d): - define a new function 
+	return add(a, b) + add(c, d)
+
+
