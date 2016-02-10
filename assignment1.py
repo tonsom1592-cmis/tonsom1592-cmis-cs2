@@ -24,17 +24,14 @@ halfVolumeOfCube = 3 ** 3/2.0
 #Tells the half volume of a cube
 areaOfRectangle = 4 ** 3/0.11
 #Tells the area of a rectangle
-print "My name is " + str(myName) + "."
-#prints my name in a sentence
-"I am " + str(myAge) + "years olds."
-#prints my age in a sentence
-"I am " + str(myHeightInMeters) + "meters tall."
-#prints my height in a sentence
-"My age in months is " + str(myAgeInMonths) + "months." 
-#prints my age in months in a sentence
+print "My name is " + str(myName) + "." 
+print "I am " + str(myAge) + " years old."
+print "I am " + str(myHeightInMeters) + " meters tall." 
+print "My age in months is " + str(myAgeInMonths) + " months." 
+#prints my strings
 "I have " + str(yearsLeftToLive) + "years left to live."
 #prints the amount of years I have left to live statistically in a sentence 
-print "Length of one side of a square is " , (lengthOfOneSideOfSquare) , "."
+print "Length of one side of a square is " , (lengthOfOneSideOfSquare ) , "."
 #prints length of one side of a square in a sentence
 "Length of one side of a rectangle is " , (lengthOfOneSideOfRectangle) , "."
 #prints length of one side of a rectangle in a sentence
