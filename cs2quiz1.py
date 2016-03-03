@@ -52,14 +52,17 @@ def main():
 	D1 = radiusOfCircle1(C1)
 	D2 = radiusOfCircle2(C2)
 	D3 = radiusOfCircle3(C3)
+	Totals = (D1 + D2 + D3)
 
 	print """ Circle	Diameter
 c1 	{}
 c2	{}
-c3	{}""".format(D1, D2, D3)
+c3	{}
+Totals	{}
+
+""".format(D1, D2, D3, Totals)
 main()
 
-	
 
 #Circle  Diameter
 #c1      ...
