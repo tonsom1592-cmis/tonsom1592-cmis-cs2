@@ -1,3 +1,5 @@
+#100% for part 1 and part 2
+
 #Part 1: Terminology (15 points)
 #1 1pt) What is the symbol "=" used for?
 #The symbol "=" is used to assign a value. 
