@@ -10,3 +10,10 @@ def resultbyuser(result,usersGuess):
 		add = abs(usersGuess + result) 
 		return "That's under by {}".format(add)
 
+def main(): 
+	number1 = int(raw_input("What is the minimum number?"))
+	number2 = int(raw_input("What is the maximum number?"))
+	print "I'm thinking of a number from {} to {}".format(number1 , number2)
+	usersGuess = int(raw_input("What do you think it is?:"))
+	result = int
+
