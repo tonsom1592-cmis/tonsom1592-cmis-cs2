@@ -1,4 +1,4 @@
-def multiply(x, y):
+def multiply(dayBorn, monthBorn):
 	daysLeft = dayBorn * monthBorn
 	return daysLeft
 	
@@ -12,7 +12,7 @@ def main():
 	name = raw_input("Type your name: ") 
 	dayBorn = raw_input("Type the day you were born: ")
 	monthBorn = raw_input("Type the month you were born as a number: ")
-	daysLeft = multiply(int(x), int(y))
+	daysLeft = multiply(int(dayBorn), int(monthBorn))
 	someone = raw_input("Type a famous person: ")
 	print output(name, dayBorn, monthBorn, daysLeft, someone)
 
