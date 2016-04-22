@@ -1,19 +1,43 @@
-def countdown(n):
-	if n <= 0:
+def countup(n):
+	if n >= 10:
 		print "Blastoff!"
 	else:
 		print n
-		countdown(n-1)
-def countup(n):
-	
+		countup(n+1)
 
 
 
 def main():
-	countup(-10)
-	countup(0)
-	countup(10)
+	countup(1)
 
-	return
 
 main()
+
+def countdown_from_to(start,stop): 
+	if start == stop:
+		print "Blastoff!"
+	elif start <= stop:
+		print "Invalid pair"
+	else: 
+		print start
+		countdown_from_to(start - 1,stop)
+	
+def main():
+	countdown_from_to(89,53)
+main()  
+
+def adder(sum_):
+	print sum_
+	number = (raw_input("Next Number")) == 0
+	if int(number) == None
+		print "The Sum Is {}".format(sum_)
+	else:
+		print sum_
+		sum_ += number
+
+
+def main():
+	sum_ = Running total: 0
+	adder(sum_)
+main()
+
