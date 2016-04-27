@@ -24,20 +24,20 @@ def countdown_from_to(start,stop):
 	
 def main():
 	countdown_from_to(89,53)
-main()  
+
+main()
 
 def adder(sum_):
-	print sum_
-	number = (raw_input("Next Number")) == 0
-	if int(number) == None
+	number = raw_input("Next Number") 
+	if (number) == "":
 		print "The Sum Is {}".format(sum_)
 	else:
-		print sum_
-		sum_ += number
+		print
+		sum_ += int(number)
+		adder(sum_)
 
 
 def main():
-	sum_ = Running total: 0
-	adder(sum_)
+	adder(0) 
 main()
 
