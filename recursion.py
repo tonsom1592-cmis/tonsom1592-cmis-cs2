@@ -40,6 +40,7 @@ def adder(sum_):
 
 
 def main():
-	adder(0) 
+	sum_ = 0
+	adder(sum_)
 main()
 
