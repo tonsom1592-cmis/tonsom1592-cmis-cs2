@@ -28,12 +28,14 @@ def main():
 main()
 
 def adder(sum_):
-	number = raw_input("Next Number") 
+	number = (raw_input("Next Number"))
 	if (number) == "":
 		print "The Sum Is {}".format(sum_)
+	elif number == float:
+		print number
 	else:
-		print
-		sum_ += int(number)
+		sum_ += float(number)
+		print "Running total: {}".format(sum_)
 		adder(sum_)
 
 
