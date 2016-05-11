@@ -4,7 +4,7 @@ print """ Welcome to The Interactive Music Game!
 	You will answer questions relating to music. Let's begin: """
 def  caughtInALandSlide():
 	print "Type the choice with the correct song lyrics: Caught in a landslide _______"
-	a = "a: I took a pill so Avicii would think I'm cool"
+	a = "a: I took a pill in Ibiza, to show Avicii I was cool"
 	b = "b: No escape from reality"
 	c = "c: Lately, I've been, I've been losing sleep"
 	print a
@@ -52,14 +52,23 @@ def sweetDreams():
 		print "You are correct!"
 	else:
 		print "You are incorrect"
-
-	
+#and, or, not
+def deepPurple():
+	print "Who were the lead singers of Deep Purple?"
+	firstM = raw_input("Who was the first lead singer of Deep Purple?")
+	secondM = raw_input("Who replaced that lead singer?")
+	if firstM == "Rod Evans" and secondM == "Ian Gillan":
+		print "That's correct!"
+	elif firstM == "Rod Evans" or secondM == "Ian Gillan":	
+		print "You got one correct" 
+	else: 
+		print "You are incorrect"
 def main(): 
 	caughtInALandSlide()
 	greenDay()
 	britneySpeares()
 	sweetDreams()
-	
+	deepPurple()
 main()
 
 
